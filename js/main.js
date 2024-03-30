@@ -440,7 +440,7 @@
 const typedTextSpan = document.querySelector(".dynamic-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["a coder.", "a hw engineer.", "a developer."];
+const textArray = ["a coder.", "a HW engineer.", "a developer."];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newTextDelay = 2000;
