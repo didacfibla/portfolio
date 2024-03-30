@@ -427,10 +427,6 @@ p:last-child {
     line-height: var(--line-height-b3);
 }
 
-.b4 {
-    font-size: var(--font-size-b4);
-    line-height: var(--line-height-b4);
-}
 
 table {
     border-collapse: collapse;
@@ -6334,7 +6330,6 @@ input[type=search] {
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
     appearance: textfield;
-    appearance: textfield;
     padding-right: 2px;
     width: 270px;
 }
@@ -6503,7 +6498,6 @@ select {
     appearance: none;
     border: 1px solid var(--color-border);
     border-radius: 4px;
-    background: url(../images/icons/arrow-icon.png) 95% center no-repeat transparent;
     padding-right: 32px;
 }
 
@@ -6522,8 +6516,6 @@ textarea {
     box-shadow: none;
     padding: 0 15px;
     outline: none;
-    border: var(--border-width) solid var(--color-border);
-    border-radius: var(--radius);
     /* -- Placeholder -- */
 }
 
@@ -11967,7 +11959,6 @@ body.template-color-1 {
     font-size: 16px;
     line-height: 29px;
     margin-top: 20px;
-    color: var(--color-lighten);
     padding-right: 0;
 }
 
@@ -13055,7 +13046,6 @@ figcaption {
     text-align: center;
     margin-top: 10px;
     font-size: 13px;
-    color: var(--color-dark-alt);
     letter-spacing: 0.5px;
 }
 
@@ -14599,7 +14589,6 @@ figcaption {
     border-radius: 10px;
     background: var(--background-color-1);
     box-shadow: var(--shadow-1);
-    position: relative;
     z-index: 1;
     height: 100%;
 }
@@ -18795,12 +18784,12 @@ span.sr-only {
 
 .rn-portfolio .inner .content .title:hover a,
 .rn-blog .inner .content .title:hover a {
-    color: var(--color-primary);
+    color: #645CFF;
 }
 
 .rn-portfolio .inner .content .title:hover a i,
 .rn-blog .inner .content .title:hover a i {
-    color: var(--color-primary);
+    color: #645CFF;
     top: 3px;
     opacity: 1;
     font-size: 23px;
@@ -21293,7 +21282,6 @@ body.white-version .rn-btn-ulderline {
     border-radius: 50%;
     background-color: var(--gradient-box-w);
     text-align: center;
-    z-index: 999 !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
