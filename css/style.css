@@ -46,7 +46,7 @@
     --color-tertiary: #0d1013;
     --color-gray: #f6f6f6;
     --color-subtitle: #f9004d;
-    --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+    --background-color-1: ;
     --background-color-2: #212428;
     --shadow-1: 10px 10px 19px #1c1e22,
     -10px -10px 19px #262a2e;
@@ -15715,7 +15715,7 @@ div#featured-project-carousel {
     position: relative;
     border-radius: 14px;
     background: #f02981;
-    background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+    background: linear-gradient(145deg, #645cff 0%, #0b00e6 100%);
 }
 
 .progress-charts .progress .progress-bar span.percent-label {
@@ -18730,7 +18730,7 @@ span.sr-only {
 
 .rn-portfolio .inner .content .category-info .category-list a,
 .rn-blog .inner .content .category-info .category-list a {
-    color: var(--color-primary);
+    color: #645CFF;
     font-weight: 500;
     font-family: var(--font-primary);
     font-size: 12px;
